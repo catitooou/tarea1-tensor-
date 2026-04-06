@@ -96,6 +96,13 @@ public:
     static Tensor random(const vector<size_t>& shape, double min, double max);
     static Tensor arange(int start, int end);
 
+    //Sobrecarga de operadores
+    Tensor operator+(const Tensor& other) const;
+    Tensor operator-(const Tensor& other) const;
+    Tensor operator*(const Tensor& other) const;
+    Tensor operator*(double scalar) const;
+
+
 };
 
 
