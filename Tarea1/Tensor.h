@@ -55,7 +55,7 @@ public:
         other.data = nullptr;
     }
 
-    //Move assignment
+    //Mover assignment
     Tensor& operator=(Tensor&& other) noexcept {
         if (this != &other) {
 

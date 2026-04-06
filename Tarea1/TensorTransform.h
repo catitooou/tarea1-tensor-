@@ -11,7 +11,7 @@ public:
     virtual ~TensorTransform() = default;
 };
 
-// 🔹 ReLU
+// ReLU
 class ReLU : public TensorTransform {
 public:
     Tensor apply(const Tensor& t) const override {
@@ -26,7 +26,7 @@ public:
     }
 };
 
-// 🔹 Sigmoid
+// Sigmoid
 class Sigmoid : public TensorTransform {
 public:
     Tensor apply(const Tensor& t) const override {
