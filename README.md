@@ -3,7 +3,10 @@ Buenos días, este es el repositorio de la tarea 01 del curso de programación 3
 
 #**Proyecto Tensores**
 Este proyecto implementa una clase Tensor en C++ que permite manejar estructuras multidimensionales, incluyendo operaciones matemáticas y transformaciones como ReLU y Sigmoid.
-
+#############################################
+ESPECIFICACIONES:
+Los archivos se encuentran en la carpeta tarea01-tensores de la rama main, los archivos del pryecto final se encuentran en la carpeta Tensor 1. 
+##############################################
 Compilación
 Para compilar el código es necesario usar este comando:
 Compilar y ejecutar :)
